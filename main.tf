@@ -8,11 +8,11 @@ module "my_vcn01" {
 }
 
 
-module "my_vcn02" {
+module "my_vcn03" {
         source = "./vcn_module"
         compartment_id = var.compartment_ocid
         cidr_block = "172.16.0.0/16"
-        dns_label = "vcn02"
-        display_name = "vcn02"
+        dns_label = "vcn03"
+        display_name = "vcn03"
 }
 
